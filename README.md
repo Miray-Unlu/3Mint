@@ -10,8 +10,7 @@ For more information about the Knime platform, please visit https://www.knime.co
 
 # 3Mint Main Workflow
 
-
-
+ ![alt text](https://github.com/Miray-Unlu/3Mint/blob/main/Images/3mint_main_workflow.PNG?raw=true)
 
 # Set up Parameters
 3Mint default parameters are given below. The SetParameters node allows the users to change the parameters.
