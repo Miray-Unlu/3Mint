@@ -23,6 +23,7 @@ Number of iterations for Internal Rank (Default: 10)
 Performance metric (Accuracy, Precision, Sensitivity, etc.) weight (Default for accuracy: 1.0)
 The 3Mint metanode in the main workflow contains Filter Genes, Highly correlated miRNAs (microRNAs) and CpGs (methylation data), Grouping and Group ranking metanodes. These metanodes constitute the framework of the Grouping-Scoring-Modelling Approach.
 
+![alt text](https://github.com/Miray-Unlu/3Mint/blob/main/Images/GSM_approach_in_3Mint.PNG?raw=true)
 
 # The Environment Settings of 3Mint
 After installing KNIME Analytics platform, 3Mint workflow is downloaded and imported into the KNIME. The workflow contains R scripts therefore the following commands should be followed to prevent errors. Before initiation of the workflow process in KNIME, R / RStudio is required to be run with following commands:
@@ -34,3 +35,5 @@ Execution of R / RStudio and the workflow simultaneously enables the 3Mint analy
 
 # Significant Feature Summary Statistics
 The 3Mint analysis of the molecular subtype datasets of BRCA identifies associated groups, miRNAs, CpGs and genes. The table below summarizes characteristics, including associated gene set of the top 10 groups. The miRNA, CpG and gene centric view of the summary results can be obtained via 3Mint.
+
+![alt text](https://github.com/Miray-Unlu/3Mint/blob/main/Results/Group_statistics.PNG?raw=true)
